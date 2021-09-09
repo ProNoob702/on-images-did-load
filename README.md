@@ -1,30 +1,106 @@
-# on-images-did-load
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
 
-> Notify your component when all images inside it are loaded
+  <h3 align="center">useImagesDidLoad</h3>
 
-[![NPM](https://img.shields.io/npm/v/on-images-did-load.svg)](https://www.npmjs.com/package/on-images-did-load) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+  <p align="center">
+    hook to call some logic when images inside component are ready 🏹 
+    <br />
+    <br />
+    <a href="https://noobday.github.io/onImagesDidLoad/">View Demo</a>
+    ·
+    <a href="https://github.com/NoobDay/onimagesdidload-ts/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/NoobDay/onimagesdidload-ts/issues">Request Feature</a>
+  </p>
+</p>
 
-## Install
+<!-- TABLE OF CONTENTS -->
 
-```bash
-npm install --save on-images-did-load
+## Table of Contents
+
+- [Why this Component](#why)
+- [Built With](#built-with)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+  - [Props](#props)
+- [Spinner while images gets loaded Demo](#demo)
+- [Contact](#contact)
+
+<!-- ABOUT THE PROJECT -->
+
+## Why this Component
+
+this hook could be useful if you wanna show a spinner until images are ready or do some logic when every thing is ready
+
+<!-- BUILT WITH -->
+
+### Built With
+
+- React
+- TypeScript (TypeScript JSX)
+
+<!-- GETTING STARTED -->
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+React.js/TypeScript project <a href="https://create-react-app.dev/docs/adding-typescript/"> Help ?</a>
+
+### Installation
+
+1.Install it using NPM
+
+```npm
+npm i ts-on-images-did-load
 ```
+
+2.Then import it in your component:
+
+```js
+import { useImagesDidLoad } from 'ts-on-images-did-load'
+```
+
+<!-- USAGE EXAMPLES -->
 
 ## Usage
 
 ```tsx
-import React, { Component } from 'react'
-
-import MyComponent from 'on-images-did-load'
-import 'on-images-did-load/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+const imagesContainerRef = useRef()
+useImagesDidLoad(
+  imagesContainerRef,
+  () => {
+    // call some callback
+  },
+  [
+    /*Dependencies*/
+  ]
+  return (
+    <div ref={imagesContainerRef}>
+      //  ... images
+    </div>
+  )
+)
 ```
 
-## License
+- codeSandbox demo -->
 
-MIT © [ProNoob702](https://github.com/ProNoob702)
+## Spinner while images gets loaded Demo
+
+<a href="https://codesandbox.io/s/autumn-sun-pqlx2?file=/src/App.tsx">
+<strong>open codeSandbox »</strong> 
+</a>
+
+<!-- CONTACT -->
+
+## Contact
+
+Taha seddik - taha.seddik1992@gmail.com
+
+Project Link: [https://github.com/NoobDay/onimagesdidload-ts](https://github.com/NoobDay/onimagesdidload-ts)

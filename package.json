@@ -1,10 +1,10 @@
 {
-  "name": "on-images-did-load",
+  "name": "ts-on-images-did-load",
   "version": "1.0.0",
   "description": "Notify your component when all images inside it are loaded",
   "author": "ProNoob702",
   "license": "MIT",
-  "repository": "ProNoob702/on-images-did-load",
+  "repository": "ProNoob702/ts-on-images-did-load",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
