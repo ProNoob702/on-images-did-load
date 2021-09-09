@@ -8,11 +8,11 @@
     hook to call some logic when images inside component are ready 🏹 
     <br />
     <br />
-    <a href="https://noobday.github.io/onImagesDidLoad/">View Demo</a>
+    <a href="https://codesandbox.io/s/autumn-sun-pqlx2?file=/src/App.tsx">View Demo</a>
     ·
-    <a href="https://github.com/NoobDay/onimagesdidload-ts/issues">Report Bug</a>
+    <a href="https://github.com/NoobDay/on-images-did-load/issues">Report Bug</a>
     ·
-    <a href="https://github.com/NoobDay/onimagesdidload-ts/issues">Request Feature</a>
+    <a href="https://github.com/NoobDay/on-images-did-load/issues">Request Feature</a>
   </p>
 </p>
 
