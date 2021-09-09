@@ -5,7 +5,7 @@
   <h3 align="center">useImagesDidLoad</h3>
 
   <p align="center">
-    hook to call some logic when images inside component are ready 🏹 
+    hook to make some logic when images inside your component are ready 🏹 
     <br />
     <br />
     <a href="https://codesandbox.io/s/autumn-sun-pqlx2?file=/src/App.tsx">View Demo</a>
