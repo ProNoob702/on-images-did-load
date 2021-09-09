@@ -89,8 +89,6 @@ useImagesDidLoad(
 )
 ```
 
-- codeSandbox demo -->
-
 ## Spinner while images gets loaded Demo
 
 <a href="https://codesandbox.io/s/autumn-sun-pqlx2?file=/src/App.tsx">
